@@ -13,6 +13,8 @@
 		16A624911C905A2100328E99 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16A6248F1C905A2100328E99 /* Main.storyboard */; };
 		16A624931C905A2100328E99 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 16A624921C905A2100328E99 /* Assets.xcassets */; };
 		16A624961C905A2100328E99 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16A624941C905A2100328E99 /* LaunchScreen.storyboard */; };
+		16A624A01C905A8500328E99 /* HTTPService.m in Sources */ = {isa = PBXBuildFile; fileRef = 16A6249F1C905A8500328E99 /* HTTPService.m */; };
+		16A624A41C9067A200328E99 /* VideoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 16A624A31C9067A200328E99 /* VideoCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,10 @@
 		16A624921C905A2100328E99 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		16A624951C905A2100328E99 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		16A624971C905A2100328E99 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		16A6249E1C905A8500328E99 /* HTTPService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTTPService.h; sourceTree = "<group>"; };
+		16A6249F1C905A8500328E99 /* HTTPService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTTPService.m; sourceTree = "<group>"; };
+		16A624A21C9067A200328E99 /* VideoCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoCell.h; sourceTree = "<group>"; };
+		16A624A31C9067A200328E99 /* VideoCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,8 @@
 		16A624851C905A2000328E99 /* TutorialsApp */ = {
 			isa = PBXGroup;
 			children = (
+				16A624A11C90677E00328E99 /* views */,
+				16A6249D1C905A5700328E99 /* Services */,
 				16A624891C905A2100328E99 /* AppDelegate.h */,
 				16A6248A1C905A2100328E99 /* AppDelegate.m */,
 				16A6248C1C905A2100328E99 /* ViewController.h */,
@@ -77,6 +85,24 @@
 				16A624871C905A2100328E99 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		16A6249D1C905A5700328E99 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				16A6249E1C905A8500328E99 /* HTTPService.h */,
+				16A6249F1C905A8500328E99 /* HTTPService.m */,
+			);
+			name = Services;
+			sourceTree = "<group>";
+		};
+		16A624A11C90677E00328E99 /* views */ = {
+			isa = PBXGroup;
+			children = (
+				16A624A21C9067A200328E99 /* VideoCell.h */,
+				16A624A31C9067A200328E99 /* VideoCell.m */,
+			);
+			name = views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -150,6 +176,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				16A6248E1C905A2100328E99 /* ViewController.m in Sources */,
+				16A624A41C9067A200328E99 /* VideoCell.m in Sources */,
+				16A624A01C905A8500328E99 /* HTTPService.m in Sources */,
 				16A6248B1C905A2100328E99 /* AppDelegate.m in Sources */,
 				16A624881C905A2100328E99 /* main.m in Sources */,
 			);
